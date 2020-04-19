@@ -24,12 +24,9 @@ class Home extends StatelessWidget {
         centerTitle: true,
         backgroundColor: Colors.green[900],
       ),
-      body: Center(
-        child: Icon(
-          Icons.airport_shuttle,
-          color: Colors.green,
-          size: 70.0,
-        )
+      body: Padding(
+        child: Text('Hello'),
+        padding: EdgeInsets.symmetric(horizontal: 30,vertical: 10),
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {},
